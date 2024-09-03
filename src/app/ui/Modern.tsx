@@ -1,5 +1,9 @@
 import Image from 'next/image';
 
+const getItem = (src: string, alt: string, width: number, height: number, className: string) => (
+    <div className='flex gap-[30px]'></div>
+)
+
 export default function Modern() {
     return (
         <div className="relative flex gap-[109px] bg-[#6D8C54]">
@@ -13,6 +17,14 @@ export default function Modern() {
                     <div className='absolute top-0 right-0 w-[176px] h-[176px] bg-[#678551] rounded-bl-[10px]'></div>
                     <div className='absolute bottom-0 left-0 w-[80px] h-[80px] bg-[#DDDDDD]/15 rounded-[10px]'></div>
                 </div>
+            </div>
+            <div className='flex flex-col gap-[67px] pt-20'>
+                <hgroup>
+                    <span>MODERN AGRICULTURE</span>
+                    <h2>Providing High Quality
+                        Products</h2>
+                </hgroup>
+                <div className='flex flex-col gap-[60px]'></div>
             </div>
         </div>
     )
