@@ -2,32 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+    font-family: 'Mistral';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mistral'), url('/fonts/MISTRAL.woff') format('woff');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.font-mistral {
+    font-family: 'Mistral', sans-serif;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+    font-family: 'JohnstownDemo';
+    font-style: normal;
+    font-weight: normal;
+    src: local('JohnstownDemo'), url('/fonts/JohnstownDemoRegular.woff') format('woff');
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.font-johnstowndemo {
+    font-family: 'JohnstownDemo', sans-serif;
+}
+
+nav, p, span {
+    font-family: 'Century Gothic', sans-serif;
+}
+
+nav {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+span {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
 }
