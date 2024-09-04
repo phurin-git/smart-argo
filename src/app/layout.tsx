@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${livvic.className} m-w-[1420px] max-w-[1920px] m-auto text-white antialiased bg-[#334B35]`}>
+      <body className={`${livvic.className} min-w-[1420px] max-w-[1920px] m-auto text-white antialiased bg-[#334B35]`}>
         {children}
       </body>
     </html>
