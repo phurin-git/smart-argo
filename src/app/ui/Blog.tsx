@@ -25,7 +25,7 @@ const getListItem = (topic:string, href:string, byUser:string, amountComments:nu
 
 export default function Blog() {
     return (
-        <div className="relative flex flex-col gap-[100px] px-[94px] py-[100px]">
+        <div className="relative flex flex-col gap-[100px] py-[100px]">
             <div className='h-[573px] absolute top-0 right-0 left-0 bg-[#263C28] -z-50'>
                 <div className='h-full bg-[url(/images/from_the_blog/bg.svg)]'></div>
             </div>

@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body>*:not(footer, .client), body>footer>* {
+    padding-left: 94px;
+    padding-right: 94px;
+}
+
+@media (min-width: 1920px) {
+    body>*:not(footer, .client), body>footer>* {
+        padding-left: 240px;
+        padding-right: 240px;
+    }
+}
+
 @font-face {
     font-family: 'Mistral';
     font-style: normal;

@@ -8,12 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "hero": "url('/images/hero/1.svg')",
-      },
-      listStyleImage: {
-        checkmark: 'url("/images/our_introduction/icon2.svg")',
-      },
     },
   },
 };

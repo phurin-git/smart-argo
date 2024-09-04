@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Introduction() {
     return (
-        <div className="relative w-full flex gap-20 px-[94px] pt-[100px] pb-[159px]">
+        <div className="relative w-full flex gap-20 pt-[100px] pb-[159px]">
             <div className="absolute top-0 left-0 w-[512px] h-[497px] bg-[#263C28] -z-50"></div>
             <div className='relative h-fit'>
                 <Image src="/images/our_introduction/1.svg" alt="" width={564} height={651}/>
@@ -27,10 +27,10 @@ export default function Introduction() {
                     <p className="w-[796px]">There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words even slightly believable.</p>
                 </div>
                 <div className="flex flex-col gap-5">
-                    <ul className="list-image-checkmark list-inside">
-                        <li>Organic food contains more vitamins</li>
-                        <li>Eat organic because supply meets demand</li>
-                        <li>Organic food is never irradiated</li>
+                    <ul className='flex flex-col gap-5'>
+                        <li className='flex gap-5'><Image src={'/images/our_introduction/icon2.svg'} alt="" width={20} height={21}/>Organic food contains more vitamins</li>
+                        <li className='flex gap-5'><Image src={'/images/our_introduction/icon2.svg'} alt="" width={20} height={21}/>Eat organic because supply meets demand</li>
+                        <li className='flex gap-5'><Image src={'/images/our_introduction/icon2.svg'} alt="" width={20} height={21}/>Organic food is never irradiated</li>
                     </ul>
                 </div>
             </div>

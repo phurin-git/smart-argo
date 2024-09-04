@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Footer() {
     return (
         <footer className="flex flex-col divide-y divide-white/20">
-            <div className="flex justify-between pt-[90px] pb-[130px] px-[94px] gap-[271px]">
+            <div className="flex justify-between pt-[90px] pb-[130px]">
                 <div className="flex flex-col gap-[34px] divide-y divide-white/20">
                     <div className="flex flex-col gap-[25px] pb-[34px]">
                         <Image src="/images/logo.svg" width={198} height={31} alt="" />
@@ -48,7 +48,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-between py-[50px] px-[94px]">
+            <div className="flex justify-between py-[50px]">
                 <span className="text-[15px]">Copyright ©Smart Agro. All Right Reserved.</span>
                 <div className="flex gap-[25px]">
                     <Link href="" className="font-century-gothic text-[15px]">Terms & Conditions</Link>

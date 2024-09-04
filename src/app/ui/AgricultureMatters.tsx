@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AgricultureMatters() {
     return (
-        <div className="w-full h-[694px] px-[94px] flex justify-between items-center bg-[url(/images/argriculture_matters/video.svg)]">
+        <div className="w-full h-[694px] flex justify-between items-center bg-[url(/images/argriculture_matters/video.svg)]">
             <h2>Agriculture Matters to<br />
             the Future of Bangladesh</h2>
             <div className="relative mr-[278px]">

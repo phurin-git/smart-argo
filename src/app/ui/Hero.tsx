@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <section className="bg-hero h-[954px] px-[94px] pt-[290px] -mt-[110px]">
+        <section className="bg-[url(/images/hero/1.svg)] h-[954px] pt-[290px] -mt-[110px]">
             <div className="w-[730px] h-[430px]">
                 <div className="relative mb-[15px]">
                     <Image src="/images/hero/underline1.svg" alt="" width={215} height={30} className="absolute -bottom-1"/>

@@ -9,12 +9,12 @@ const getCard = (item:string) => (
 
 export default function FruitsVegetables() {
     return (
-        <div className='flex flex-col items-center gap-[100px] px-[94px] pt-[78px] pb-[188px]'>
+        <div className='flex flex-col items-center gap-[100px] pt-[78px] pb-[188px]'>
             <hgroup className="flex flex-col gap-5 items-center">
                 <span>Popular Foods And Vegetables</span>
                 <h2>Quality Fruits & Vegetables</h2>
             </hgroup>
-            <div className="w-full flex justify-evenly">
+            <div className="w-full flex justify-between">
                 {getCard('apple')}
                 {getCard('blueberry')}
                 {getCard('strawberry')}

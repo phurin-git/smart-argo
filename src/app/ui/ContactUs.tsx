@@ -1,6 +1,6 @@
 export default function ContactUs() {
     return (
-        <div className="flex gap-[133px] justify-center px-[94px] py-[100px]">
+        <div className="flex gap-[133px] justify-center py-[100px]">
             <div className="flex flex-col gap-[50px]">
                 <hgroup>
                     <span className="uppercase">CONTACT NOW</span>

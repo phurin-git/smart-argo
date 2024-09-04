@@ -10,7 +10,7 @@ const  getNavButton = (href:string, label: string, className:string='') =>(
 
 export default function NavBar() {
   return (
-    <nav className='w-full h-[110px] bg-[#334B35] flex justify-between items-center sticky top-0 px-[94px] z-50'>
+    <nav className='w-full h-[110px] bg-[#334B35] flex justify-between items-center sticky top-0 z-50'>
         <Link href="/">
           <Image src='/images/logo.svg' alt="" width={198} height={31} />
         </Link>
