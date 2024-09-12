@@ -1,3 +1,9 @@
+## Design Credits
+
+The design for this project was created using [Figma](https://www.figma.com/community/file/1282754155929226368/smart-agro-an-organic-food-agriculture-farm-services-website).
+
+Special thanks to [MD. Mahamudur Rahman](https://www.figma.com/@mahamudur) for the design inspiration.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
